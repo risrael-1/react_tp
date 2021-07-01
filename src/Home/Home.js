@@ -2,7 +2,7 @@ import '../App.css';
 import Button from '@material-ui/core/Button';
 import history from '../History/history';
 
-function App() {
+function Home() {
   return (
     <div className="App">
       <header className="App-header">
@@ -15,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

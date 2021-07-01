@@ -18,7 +18,7 @@ class Annims extends React.Component{
             return (
                 <div className='row mt-3'>
                   {annims.map( (item,index) => (
-                      <Annim title={item.attributes.titles.en} key={index+1}/>
+                      <Annim title={item.attributes.titles.en} image={item.attributes.posterImage.tiny} id={index+1} key={index+1}/>
                   ))}
                 </div>
               );
